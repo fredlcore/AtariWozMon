@@ -1,6 +1,9 @@
 # AtariWozMon
 Atari 8-Bit port of Steve Wozniak's WozMon for the Apple I
 
+If you want to see Atari WozMon in action, have a look at this YouTube video:
+https://youtu.be/3MdVf_60dfo?si=mSKVfJst9IAJymsI
+
  Atari WozMon is an Atari 8-bit adaptation of the machine language monitor which was built into the Apple I. Since this was programmed by Steven Wozniak at that time, this software is affectionately called "WozMon" since then. Especially remarkable is that this program uses less than 256 bytes of memory and still provides the basic functions of a machine language monitor: You can use it to read or modify single values or entire memory blocks, as well as target specific memory addresses to start a program.
 
 Even today such a tool is still extremely useful if you still program directly on the "real" hardware. Because instead of writing long series of POKEs to change memory locations (or not having the possibility to do so under DOS in the first place), you can write the values directly into the desired memory locations with a quick jump to Atari WozMon. If you know the hexadecimal values of assembler commands, you can even program directly in machine language while using BASIC. 
