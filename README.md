@@ -80,4 +80,4 @@ Exit Atari WozMon (and get back to BASIC if necessary):
 ```
 X
 ```
-(DOS 2.5 unfortunately executes a JMP (and no JSR), so X does not work here. To get back to DOS, a jump to the memory location 
+(DOS 2.5 unfortunately executes a JMP (and no JSR), so X does not work here. To get back to DOS, a jump to the memory location in vector $000A/$000B is necessary)
